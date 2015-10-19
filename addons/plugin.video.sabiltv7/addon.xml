@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.sabiltv7" version="1.1.0"
+name="Sabil TV7"
+provider-name="Roman_V_M">
+<requires>
+  <import addon="xbmc.python" version="2.14.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+  <extension point="xbmc.addon.metadata">
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 1.0.1, 1 Muharam 1437</license>
+    <website>http://sabiltv.my/</website>
+    <source>https://github.com/sabiltv/xbmc-plugin.video.sabiltv</source>
+    <email>sabiltv@gmail.com</email>
+    <forum></forum>
+    <summary lang="en">Access all Islamic-related videos indexed at sabiltv.my.</summary>
+    <description lang="en">sabiltv.my is a video index of Islamic-related video on the Internet. Each video is packaged with a variety of metadata making it the best place to find videos about the Islam.</description>
+  </extension>
+</addon>
